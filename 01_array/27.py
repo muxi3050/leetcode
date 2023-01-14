@@ -7,7 +7,7 @@ class Solution:
             if nums[fast]!=val:
                 nums[slow]=nums[fast]
                 slow+=1
-            fast+=1
+            fast+=2
         return slow
 s = Solution()
 nums = [0,1,2,2,3,0,4,2]
